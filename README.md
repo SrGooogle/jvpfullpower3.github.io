@@ -1,2 +1,228 @@
-# jvpfullpower3.github.io
-Site E-Commerce
+<!DOCTYPE html>
+
+<html class="light" lang="pt-br"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>JVP FULL POWER</title>
+<link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;700;800&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet"/>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<script>
+    tailwind.config = {
+      darkMode: "class",
+      theme: {
+        extend: {
+          colors: {
+            "primary": "#007BFF",
+            "background-light": "#F4F6F8",
+            "background-dark": "#101922",
+          },
+          fontFamily: {
+            "display": ["Plus Jakarta Sans", "Noto Sans", "sans-serif"]
+          },
+          borderRadius: {
+            "DEFAULT": "0.5rem",
+            "lg": "0.75rem",
+            "xl": "1rem",
+            "full": "9999px"
+          },
+        },
+      },
+    }
+  </script>
+<style>
+    .material-symbols-outlined {
+      font-variation-settings:
+      'FILL' 0,
+      'wght' 400,
+      'GRAD' 0,
+      'opsz' 24
+    }
+  </style>
+</head>
+<body class="bg-background-light dark:bg-background-dark font-display">
+<div class="relative flex h-auto min-h-screen w-full flex-col group/design-root overflow-x-hidden">
+<div class="layout-container flex h-full grow flex-col">
+<header class="flex items-center justify-between whitespace-nowrap border-b border-solid border-b-gray-200 dark:border-b-gray-800 px-4 sm:px-6 lg:px-8 py-4 bg-white dark:bg-background-dark">
+<div class="flex items-center gap-4">
+<div class="flex items-center gap-2 text-primary">
+<svg class="h-8 w-8" fill="none" viewbox="0 0 48 48" xmlns="http://www.w3.org/2000/svg">
+<path d="M13.8261 17.4264C16.7203 18.1174 20.2244 18.5217 24 18.5217C27.7756 18.5217 31.2797 18.1174 34.1739 17.4264C36.9144 16.7722 39.9967 15.2331 41.3563 14.1648L24.8486 40.6391C24.4571 41.267 23.5429 41.267 23.1514 40.6391L6.64374 14.1648C8.00331 15.2331 11.0856 16.7722 13.8261 17.4264Z" fill="currentColor"></path>
+<path clip-rule="evenodd" d="M39.998 12.236C39.9944 12.2537 39.9875 12.2845 39.9748 12.3294C39.9436 12.4399 39.8949 12.5741 39.8346 12.7175C39.8168 12.7597 39.7989 12.8007 39.7813 12.8398C38.5103 13.7113 35.9788 14.9393 33.7095 15.4811C30.9875 16.131 27.6413 16.5217 24 16.5217C20.3587 16.5217 17.0125 16.131 14.2905 15.4811C12.0012 14.9346 9.44505 13.6897 8.18538 12.8168C8.17384 12.7925 8.16216 12.767 8.15052 12.7408C8.09919 12.6249 8.05721 12.5114 8.02977 12.411C8.00356 12.3152 8.00039 12.2667 8.00004 12.2612C8.00004 12.261 8 12.2607 8.00004 12.2612C8.00004 12.2359 8.0104 11.9233 8.68485 11.3686C9.34546 10.8254 10.4222 10.2469 11.9291 9.72276C14.9242 8.68098 19.1919 8 24 8C28.8081 8 33.0758 8.68098 36.0709 9.72276C37.5778 10.2469 38.6545 10.8254 39.3151 11.3686C39.9006 11.8501 39.9857 12.1489 39.998 12.236ZM4.95178 15.2312L21.4543 41.6973C22.6288 43.5809 25.3712 43.5809 26.5457 41.6973L43.0534 15.223C43.0709 15.1948 43.0878 15.1662 43.104 15.1371L41.3563 14.1648C43.104 15.1371 43.1038 15.1374 43.104 15.1371L43.1051 15.135L43.1065 15.1325L43.1101 15.1261L43.1199 15.1082C43.1276 15.094 43.1377 15.0754 43.1497 15.0527C43.1738 15.0075 43.2062 14.9455 43.244 14.8701C43.319 14.7208 43.4196 14.511 43.5217 14.2683C43.6901 13.8679 44 13.0689 44 12.2609C44 10.5573 43.003 9.22254 41.8558 8.2791C40.6947 7.32427 39.1354 6.55361 37.385 5.94477C33.8654 4.72057 29.133 4 24 4C18.867 4 14.1346 4.72057 10.615 5.94478C8.86463 6.55361 7.30529 7.32428 6.14419 8.27911C4.99695 9.22255 3.99999 10.5573 3.99999 12.2609C3.99999 13.1275 4.29264 13.9078 4.49321 14.3607C4.60375 14.6102 4.71348 14.8196 4.79687 14.9689C4.83898 15.0444 4.87547 15.1065 4.9035 15.1529C4.91754 15.1762 4.92954 15.1957 4.93916 15.2111L4.94662 15.223L4.95178 15.2312ZM35.9868 18.996L24 38.22L12.0131 18.996C12.4661 19.1391 12.9179 19.2658 13.3617 19.3718C16.4281 20.1039 20.0901 20.5217 24 20.5217C27.9099 20.5217 31.5719 20.1039 34.6383 19.3718C35.082 19.2658 35.5339 19.1391 35.9868 18.996Z" fill="currentColor" fill-rule="evenodd"></path>
+</svg>
+<h1 class="text-2xl font-bold leading-tight tracking-[-0.015em] text-gray-900 dark:text-white">JVP FULL POWER</h1>
+</div>
+</div>
+<div class="flex-1 px-8">
+<label class="flex flex-col min-w-40 w-full">
+<div class="flex w-full flex-1 items-stretch rounded-lg h-12">
+<div class="text-gray-500 dark:text-gray-400 flex border-none bg-background-light dark:bg-background-dark items-center justify-center pl-4 rounded-l-lg border-r-0">
+<span class="material-symbols-outlined">search</span>
+</div>
+<input class="form-input flex w-full min-w-0 flex-1 resize-none overflow-hidden rounded-r-lg text-gray-900 dark:text-white focus:outline-0 focus:ring-2 focus:ring-primary border-none bg-background-light dark:bg-background-dark h-full placeholder:text-gray-500 dark:placeholder-text-gray-400 px-4 pl-2 text-base font-normal leading-normal" placeholder="Buscar produtos, marcas e muito mais..." value=""/>
+</div>
+</label>
+</div>
+<div class="flex items-center gap-4">
+<button class="flex max-w-[480px] cursor-pointer items-center justify-center overflow-hidden rounded-full h-10 w-10 bg-background-light dark:bg-background-dark text-gray-700 dark:text-gray-300 gap-2 text-sm font-bold leading-normal tracking-[0.015em] min-w-0 p-2.5 hover:bg-gray-200 dark:hover:bg-gray-700">
+<span class="material-symbols-outlined">favorite</span>
+</button>
+<button class="relative flex max-w-[480px] cursor-pointer items-center justify-center overflow-hidden rounded-full h-10 w-10 bg-background-light dark:bg-background-dark text-gray-700 dark:text-gray-300 gap-2 text-sm font-bold leading-normal tracking-[0.015em] min-w-0 p-2.5 hover:bg-gray-200 dark:hover:bg-gray-700">
+<span class="material-symbols-outlined">shopping_cart</span>
+<span class="absolute -top-1 -right-1 flex h-5 w-5 items-center justify-center rounded-full bg-primary text-white text-xs font-bold">2</span>
+</button>
+<button class="flex max-w-[480px] cursor-pointer items-center justify-center overflow-hidden rounded-full h-10 w-10 bg-background-light dark:bg-background-dark text-gray-700 dark:text-gray-300 gap-2 text-sm font-bold leading-normal tracking-[0.015em] min-w-0 p-2.5 hover:bg-gray-200 dark:hover:bg-gray-700">
+<span class="material-symbols-outlined">person</span>
+</button>
+</div>
+</header>
+<main class="flex-1 px-4 sm:px-6 lg:px-8 py-5">
+<div class="layout-content-container flex flex-col max-w-screen-xl mx-auto flex-1">
+<div class="w-full h-96 rounded-xl bg-center bg-no-repeat bg-cover flex flex-col justify-center items-start p-12 text-white" data-alt="Promotional banner showing a vibrant abstract design of blue and purple light trails" style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuAK049MWA3lvkWEec2z4LOBD6lIZetWi131AI1WLnbyyM7Mo1iFOahYrHBCRAf30Uhj23FV_Z7WaJTyZboHLNgVizsXyeOvUxQzGWsPllhMI__3efE612zjJzafRzOdkcv7OfX0zm0UWpGmoTBQrXHQ8zRb7FuTAXMdwA2mE2Rq1VeuLfw4qDBmlBoK0VXsTlA6nXxDzIWM5fM5SYZw6pIbhw1UwPzJPFiMIuLBCf5sGm08ZNyOrCYOQSk3C4yywq5wPO8Nt4DpHRa3");'>
+<h2 class="text-4xl font-extrabold mb-4">Tecnologia e Potência ao seu Alcance</h2>
+<p class="text-lg mb-6 max-w-md">As melhores ofertas em eletrônicos, ferramentas e muito mais. Não perca!</p>
+<button class="flex min-w-[84px] max-w-[480px] cursor-pointer items-center justify-center overflow-hidden rounded-lg h-12 px-6 bg-white text-primary text-base font-bold leading-normal tracking-[0.015em] hover:bg-gray-100 transition-colors">
+<span class="truncate">Confira!</span>
+</button>
+</div>
+<section class="mt-12">
+<h2 class="text-2xl font-bold leading-tight tracking-[-0.015em] px-4 pb-3 pt-5 text-gray-900 dark:text-white">Navegue por Categorias</h2>
+<div class="grid grid-cols-2 md:grid-cols-4 gap-4 p-4">
+<div class="flex flex-col gap-3 pb-3 group">
+<div class="w-full bg-center bg-no-repeat aspect-square bg-cover rounded-xl overflow-hidden transition-transform duration-300 group-hover:scale-105" data-alt="A collection of modern electronic gadgets like a smartphone, a drone, and headphones" style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuC04E0S8SMNp_Q5sWz4LV9EBuwshozd-GPDsvCh4JfBFrNutDHq7FVRKU3CDcbVHx1E7tNyRGDYvE1tmf7jRWBT9IgIssfOezG2tkni2kJZnWjTXaM_39LfxFiyCsGs9mNg3SZH7AcpRwkAS5sdBNEHcmXHZkcgCvLU34DG8aPU86QQZh9x6BxX5mWHRa72hBCci_XoSyiQt3fPpgxFuXAWYQ5bA-fhWpVW2lWg-z34rITqWMqI3J4KC26N_qXjzIcF3hJUl6Eb2B5g");'></div>
+<div>
+<p class="text-gray-900 dark:text-white text-lg font-semibold leading-normal">Eletrônicos</p>
+<p class="text-gray-600 dark:text-gray-400 text-sm font-normal leading-normal">Tecnologia de ponta</p>
+</div>
+</div>
+<div class="flex flex-col gap-3 pb-3 group">
+<div class="w-full bg-center bg-no-repeat aspect-square bg-cover rounded-xl overflow-hidden transition-transform duration-300 group-hover:scale-105" data-alt="A set of professional mechanic tools neatly arranged on a workbench" style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuAh24jV4OW1dTYrHm8se8vLyIDU0H5JakKJhXfi4wgr8dJwDdBrwq454WFZrd38OG5tX21ddOeYCpibiU_ro_ic8NZK-Ju_qlTkFoSncdRVUXVjO8wc5N3b-BkV2Eg8XZOqMWdp5--K4ulm90pY5x-QhCKf1hcbIqzXP3wRrSfOyDuCV1vaHF6Cg_iMbEiVZUBMU1OuUks9gmK8pwweF0Uk1AtaOqmSP7FtAiq-E6u-WoJQ_A8_SnakQ8aU_uguVCHjs8cGRsiUSvld");'></div>
+<div>
+<p class="text-gray-900 dark:text-white text-lg font-semibold leading-normal">Ferramentas</p>
+<p class="text-gray-600 dark:text-gray-400 text-sm font-normal leading-normal">Para todos os projetos</p>
+</div>
+</div>
+<div class="flex flex-col gap-3 pb-3 group">
+<div class="w-full bg-center bg-no-repeat aspect-square bg-cover rounded-xl overflow-hidden transition-transform duration-300 group-hover:scale-105" data-alt="A modern kitchen with sleek stainless steel appliances" style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuDsK8edhZYiW8umPTlZJ2X8O745IR852k4TGOd61PuoGAaZBHdULs7xhzyzM2Kla02OaR-uwphJBH985yWFfkhy4JPuaj2gy3RAzcYlrGwwZQsvbmuSvNH3893Dmzgc-dHmcBq5FRxSqL0Lp509KY_iNL_aTAQsqj2xv2UYkeGQ9d5TrjugkTn5MGGEWEM3cEPyMLlFoqigu29veYSLjr_ZAhOLvzYSWrpI_KbK3Bw7-RRdgNhdMqMdg2QvQRoL0Clp_Ko5q73weZNy");'></div>
+<div>
+<p class="text-gray-900 dark:text-white text-lg font-semibold leading-normal">Eletrodomésticos</p>
+<p class="text-gray-600 dark:text-gray-400 text-sm font-normal leading-normal">Inovação para seu lar</p>
+</div>
+</div>
+<div class="flex flex-col gap-3 pb-3 group">
+<div class="w-full bg-center bg-no-repeat aspect-square bg-cover rounded-xl overflow-hidden transition-transform duration-300 group-hover:scale-105" data-alt="A gaming setup with a glowing keyboard, mouse, and a high-end monitor displaying a video game scene" style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuB7lmqyN2RUWb-Tq1QCt6b_S6IGSqDrVxzfQG51_65nzdC8nRuBmSOTVeB3S0RVeoxiIkhTGPCkuQ0MUZYStQc8_Frrr7vMR76REne-ViTmJ7Yk3XAjYmR-jrFWW69MLnqptvCj47tgZpkJxwrgFVw8IhQcYdnlqIzHEVG8HdRKjbGRBZ5hrv5TWT44t_8Q7dFDESPqxQIkAxUl95amjXBeTRcrwL78NNe29iA04ERIRJ33PYlaDcTBmN-U8BMVmU-JQow_NWCdV77p");'></div>
+<div>
+<p class="text-gray-900 dark:text-white text-lg font-semibold leading-normal">Games</p>
+<p class="text-gray-600 dark:text-gray-400 text-sm font-normal leading-normal">O melhor do entretenimento</p>
+</div>
+</div>
+</div>
+</section>
+<section class="mt-8">
+<h2 class="text-2xl font-bold leading-tight tracking-[-0.015em] px-4 pb-3 pt-5 text-gray-900 dark:text-white">Ofertas do Dia</h2>
+<div class="flex overflow-x-auto [-ms-scrollbar-style:none] [scrollbar-width:none] [&amp;::-webkit-scrollbar]:hidden">
+<div class="flex items-stretch p-4 gap-4">
+<div class="flex h-full flex-1 flex-col gap-4 rounded-xl bg-white dark:bg-background-dark shadow-[0_0_10px_rgba(0,0,0,0.05)] dark:shadow-[0_0_10px_rgba(255,255,255,0.05)] min-w-60">
+<div class="w-full bg-center bg-no-repeat aspect-square bg-cover rounded-t-xl" data-alt="A sleek black professional camera drone" style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuBKhnfiZeOnhNZ9FrsGWuP2fCq5pw2FwcbFpllxTxLkz4pb0RDRTntOI9em8dhmC2V_-_qbGJTRwexvoU4J1j7qTppYsITiKffC-vZ7S9xkgGIp1pnl1-MweAyukt3T7d4e16sJRHtiZBps2DMva6INwfqJwHVMnNCNyhj2XLHD1Cp0lhkGUJY8Q_hb_7k9S4gXFi-zF_0857ezdn2kxBQFTcwhlstUWLVb_HlknN0dIWnn8ke0KHsi7FJSBUEUimergkpT9easQ3ei");'></div>
+<div class="flex flex-col flex-1 justify-between p-4 pt-0 gap-4">
+<div>
+<p class="text-gray-900 dark:text-white text-base font-medium leading-normal">DroneX Pro</p>
+<p class="text-gray-500 dark:text-gray-400 text-sm font-normal leading-normal">R$ 799,90 <span class="line-through text-xs">R$ 999,90</span></p>
+</div>
+<button class="flex min-w-[84px] w-full max-w-[480px] cursor-pointer items-center justify-center overflow-hidden rounded-lg h-10 px-4 bg-primary/20 dark:bg-primary/30 text-primary dark:text-blue-300 text-sm font-bold leading-normal tracking-[0.015em] hover:bg-primary/30 dark:hover:bg-primary/40">
+<span class="truncate">Adicionar ao Carrinho</span>
+</button>
+</div>
+</div>
+<div class="flex h-full flex-1 flex-col gap-4 rounded-xl bg-white dark:bg-background-dark shadow-[0_0_10px_rgba(0,0,0,0.05)] dark:shadow-[0_0_10px_rgba(255,255,255,0.05)] min-w-60">
+<div class="w-full bg-center bg-no-repeat aspect-square bg-cover rounded-t-xl" data-alt="A complete mechanic's tool set in a red case" style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuBpi05xATJOR19g5g6Tpzy5dzsW6lsjymeqwZOnd7k1311Fd89Q3klHiZXG-NW0QVcdtk5C7-Fer0FM8cBtLS5Vc_qKFIjE0SMe2FSvEAGVeEBuOsR7Hal-dgw5l2XP7aoIp0HjiTIqU5RCzN3OIHiH5oB_8_Fp7OrYsLgeKvmTqsLbEotdopCwQ_AMmFAHIlmZBHjtraQeJydDIbUhhjosQgzO8YRnL8OG-YU3dTIMo0cwh8BOMyYI6s5yQX9o2DZWANy8kGrEsNsy");'></div>
+<div class="flex flex-col flex-1 justify-between p-4 pt-0 gap-4">
+<div>
+<p class="text-gray-900 dark:text-white text-base font-medium leading-normal">Kit Ferramentas Profissional</p>
+<p class="text-gray-500 dark:text-gray-400 text-sm font-normal leading-normal">R$ 449,99 <span class="line-through text-xs">R$ 599,99</span></p>
+</div>
+<button class="flex min-w-[84px] w-full max-w-[480px] cursor-pointer items-center justify-center overflow-hidden rounded-lg h-10 px-4 bg-primary/20 dark:bg-primary/30 text-primary dark:text-blue-300 text-sm font-bold leading-normal tracking-[0.015em] hover:bg-primary/30 dark:hover:bg-primary/40">
+<span class="truncate">Adicionar ao Carrinho</span>
+</button>
+</div>
+</div>
+<div class="flex h-full flex-1 flex-col gap-4 rounded-xl bg-white dark:bg-background-dark shadow-[0_0_10px_rgba(0,0,0,0.05)] dark:shadow-[0_0_10px_rgba(255,255,255,0.05)] min-w-60">
+<div class="w-full bg-center bg-no-repeat aspect-square bg-cover rounded-t-xl" data-alt="A modern stainless steel coffee brewer" style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuCskgpl0MN-YyeHp8v3snM9A91E6-LHl2CqSPErMoZs_ihqDESHSMSK_OG3l2G_ZaHy62t9HaOfI36qvTvvovm805yTFaB4ZAPJo2hh49AoKSNoYZFAikBk7Pc4nGAvw3C34ZkWiOEmm07-Wf_lI1Jj5WSQ7C-h7pQj-I3jgygHrSK7pCEdsMefpRLVOytRH3bBzCmlkX5bFTE9Ixrf9gQK5BQStVijo1FFxQCSvGA5Bo4CorrxNuo7KKzLCjop64f1uMyPyMMvDk1H");'></div>
+<div class="flex flex-col flex-1 justify-between p-4 pt-0 gap-4">
+<div>
+<p class="text-gray-900 dark:text-white text-base font-medium leading-normal">Cafeteira Express</p>
+<p class="text-gray-500 dark:text-gray-400 text-sm font-normal leading-normal">R$ 249,90 <span class="line-through text-xs">R$ 349,90</span></p>
+</div>
+<button class="flex min-w-[84px] w-full max-w-[480px] cursor-pointer items-center justify-center overflow-hidden rounded-lg h-10 px-4 bg-primary/20 dark:bg-primary/30 text-primary dark:text-blue-300 text-sm font-bold leading-normal tracking-[0.015em] hover:bg-primary/30 dark:hover:bg-primary/40">
+<span class="truncate">Adicionar ao Carrinho</span>
+</button>
+</div>
+</div>
+<div class="flex h-full flex-1 flex-col gap-4 rounded-xl bg-white dark:bg-background-dark shadow-[0_0_10px_rgba(0,0,0,0.05)] dark:shadow-[0_0_10px_rgba(255,255,255,0.05)] min-w-60">
+<div class="w-full bg-center bg-no-repeat aspect-square bg-cover rounded-t-xl" data-alt="Video game cover for Cyberpunk 2077" style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuBL-cpr274hjbFDko_oMZd1OM44yJEgcVY2th33L_LZY3C58B4OyxAKX-U0cpUKTGAl4kpjcIgkwejayeJ6M5-_XlXc8A2QGwuaS_VnhUy1bC4ryMdxmcnyHxuiXZkxMBcCjYNHAtEkpWnbjJq426J26go_Gm6Rhtov_uekQ7n8z8MAmA8XNA9x52FU1jITPqCCBdSlY2CCITWUUWGy50pL6SAQhoCPwArs5FnG0Thw4e26EgmR8144Y1bJ70zGhXNEHYAfugUEDJAX");'></div>
+<div class="flex flex-col flex-1 justify-between p-4 pt-0 gap-4">
+<div>
+<p class="text-gray-900 dark:text-white text-base font-medium leading-normal">Cyberpunk 2077 - PS5</p>
+<p class="text-gray-500 dark:text-gray-400 text-sm font-normal leading-normal">R$ 129,99 <span class="line-through text-xs">R$ 199,99</span></p>
+</div>
+<button class="flex min-w-[84px] w-full max-w-[480px] cursor-pointer items-center justify-center overflow-hidden rounded-lg h-10 px-4 bg-primary/20 dark:bg-primary/30 text-primary dark:text-blue-300 text-sm font-bold leading-normal tracking-[0.015em] hover:bg-primary/30 dark:hover:bg-primary/40">
+<span class="truncate">Adicionar ao Carrinho</span>
+</button>
+</div>
+</div>
+<div class="flex h-full flex-1 flex-col gap-4 rounded-xl bg-white dark:bg-background-dark shadow-[0_0_10px_rgba(0,0,0,0.05)] dark:shadow-[0_0_10px_rgba(255,255,255,0.05)] min-w-60">
+<div class="w-full bg-center bg-no-repeat aspect-square bg-cover rounded-t-xl" data-alt="A stylish urban explorer jacket" style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuBBv6z_4gdRaUX4G-U6fWcC9QByhc3-I6NCQNnGAHZOuhSdUWLCKndvQowkGVTD9vRlvcI_U1_F686aegPqHNc3BjCbmlPS1russOoiI158yd-tWpOi0xgqb5sdjbxwKIThAOJIeYNc44xFgTPh5Kwd1vICb2Qiz95lhJKTvl4fuz32gaXlY2RJjYZhqOv4uv2Ul09U51xTVhqmZFiXBJmf7-nE95h_LOMhiuYwcf2liCsB9aF4wmmmbqpinTIPXjJzeVSJm8ZEPJn0");'></div>
+<div class="flex flex-col flex-1 justify-between p-4 pt-0 gap-4">
+<div>
+<p class="text-gray-900 dark:text-white text-base font-medium leading-normal">Jaqueta Urban Explorer</p>
+<p class="text-gray-500 dark:text-gray-400 text-sm font-normal leading-normal">R$ 199,99 <span class="line-through text-xs">R$ 299,99</span></p>
+</div>
+<button class="flex min-w-[84px] w-full max-w-[480px] cursor-pointer items-center justify-center overflow-hidden rounded-lg h-10 px-4 bg-primary/20 dark:bg-primary/30 text-primary dark:text-blue-300 text-sm font-bold leading-normal tracking-[0.015em] hover:bg-primary/30 dark:hover:bg-primary/40">
+<span class="truncate">Adicionar ao Carrinho</span>
+</button>
+</div>
+</div>
+</div>
+</div>
+</section>
+</div>
+</main>
+<footer class="bg-white dark:bg-background-dark border-t border-gray-200 dark:border-gray-800 mt-12 py-10 px-4 sm:px-6 lg:px-8">
+<div class="max-w-screen-xl mx-auto grid grid-cols-1 md:grid-cols-4 gap-8 text-gray-600 dark:text-gray-400">
+<div>
+<h3 class="font-bold text-lg text-gray-900 dark:text-white mb-4">JVP FULL POWER</h3>
+<p class="text-sm">O seu universo de compras, da tecnologia à garagem.</p>
+</div>
+<div>
+<h3 class="font-bold text-lg text-gray-900 dark:text-white mb-4">Institucional</h3>
+<ul class="space-y-2 text-sm">
+<li><a class="hover:text-primary" href="#">Sobre Nós</a></li>
+<li><a class="hover:text-primary" href="#">Carreiras</a></li>
+<li><a class="hover:text-primary" href="#">Políticas de Privacidade</a></li>
+<li><a class="hover:text-primary" href="#">Termos de Uso</a></li>
+</ul>
+</div>
+<div>
+<h3 class="font-bold text-lg text-gray-900 dark:text-white mb-4">Atendimento</h3>
+<ul class="space-y-2 text-sm">
+<li><a class="hover:text-primary" href="#">Perguntas Frequentes</a></li>
+<li><a class="hover:text-primary" href="#">Fale Conosco</a></li>
+<li><a class="hover:text-primary" href="#">Minha Conta</a></li>
+</ul>
+</div>
+<div>
+<h3 class="font-bold text-lg text-gray-900 dark:text-white mb-4">Siga-nos</h3>
+<div class="flex space-x-4">
+<a class="text-gray-500 hover:text-primary" href="#"><svg class="h-6 w-6" fill="currentColor" viewbox="0 0 24 24"><path d="M22.46,6C21.69,6.35 20.86,6.58 20,6.69C20.88,6.16 21.56,5.32 21.88,4.31C21.05,4.81 20.13,5.16 19.16,5.36C18.37,4.5 17.26,4 16,4C13.65,4 11.73,5.92 11.73,8.29C11.73,8.63 11.77,8.96 11.84,9.27C8.28,9.09 5.11,7.38 3,4.79C2.63,5.42 2.42,6.16 2.42,6.94C2.42,8.43 3.17,9.75 4.33,10.5C3.62,10.5 2.96,10.3 2.38,10.03C2.38,10.05 2.38,10.06 2.38,10.08C2.38,12.26 3.93,14.07 6,14.5C5.55,14.63 5.08,14.7 4.6,14.7C4.28,14.7 3.98,14.67 3.68,14.61C4.26,16.44 5.96,17.76 8,17.8C6.46,19 4.5,19.6 2.39,19.6C2.05,19.6 1.71,19.58 1.37,19.54C3.2,20.78 5.4,21.5 7.77,21.5C16.02,21.5 20.34,14.54 20.34,8.73C20.34,8.53 20.34,8.33 20.33,8.13C21.22,7.5 21.94,6.81 22.46,6Z"></path></svg></a>
+<a class="text-gray-500 hover:text-primary" href="#"><svg class="h-6 w-6" fill="currentColor" viewbox="0 0 24 24"><path d="M12,2A10,10 0 0,0 2,12C2,16.42 5.58,20 10,20C10.74,20 11.45,19.93 12.14,19.81C12.09,19.53 12.04,19.24 12,18.94C12,18.36 12.12,17.79 12.33,17.26L13.06,14.12C13.06,14.12 12.68,13.34 12.68,12.55C12.68,11.3 13.5,10.23 14.55,10.23C15.48,10.23 15.93,10.94 15.93,11.75C15.93,12.72 15.3,13.88 14.85,14.59C14.28,15.48 15.09,16.89 15.09,16.89C15.09,16.89 15.74,17.15 16.03,16.03C16.32,14.9 17.15,14.07 17.15,13.07C17.15,10.73 15.3,9 12.94,9C10.2,9 8.28,11.23 8.28,13.53C8.28,14.54 8.78,15.65 9.42,16.2C9.52,16.29 9.55,16.43 9.5,16.55L9.23,17.65C9.18,17.84 9,17.93 8.8,17.82C7.55,17.24 6.9,15.64 6.9,14.19C6.9,11.19 9.25,8.19 12.92,8.19C16.81,8.19 19.5,10.74 19.5,13.88C19.5,16.39 18.06,18.5 15.82,18.5C15.2,18.5 14.61,18.16 14.4,17.87C14.4,17.87 13.9,19.38 13.78,19.88C13.23,20.21 12.64,20.35 12,20.35C11.33,20.35 10.67,20.28 10,20.28C5.58,20.28 2,16.7 2,12.28A10,10 0 0,1 12,2.28Z"></path></svg></a>
+<a class="text-gray-500 hover:text-primary" href="#"><svg class="h-6 w-6" fill="currentColor" viewbox="0 0 24 24"><path d="M7.8,2H16.2C19.4,2 22,4.6 22,7.8V16.2A5.8,5.8 0 0,1 16.2,22H7.8C4.6,22 2,19.4 2,16.2V7.8A5.8,5.8 0 0,1 7.8,2M7.6,4A3.6,3.6 0 0,0 4,7.6V16.4C4,18.39 5.61,20 7.6,20H16.4A3.6,3.6 0 0,0 20,16.4V7.6C20,5.61 18.39,4 16.4,4H7.6M17.25,5.5A1.25,1.25 0 0,1 18.5,6.75A1.25,1.25 0 0,1 17.25,8A1.25,1.25 0 0,1 16,6.75A1.25,1.25 0 0,1 17.25,5.5M12,7A5,5 0 0,1 17,12A5,5 0 0,1 12,17A5,5 0 0,1 7,12A5,5 0 0,1 12,7M12,9A3,3 0 0,0 9,12A3,3 0 0,0 12,15A3,3 0 0,0 15,12A3,3 0 0,0 12,9Z"></path></svg></a>
+</div>
+</div>
+</div>
+<div class="mt-8 border-t border-gray-200 dark:border-gray-800 pt-6 text-center text-sm text-gray-500 dark:text-gray-400">
+<p>© 2024 JVP FULL POWER. Todos os direitos reservados.</p>
+</div>
+</footer>
+</div>
+</div>
+</body></html>
